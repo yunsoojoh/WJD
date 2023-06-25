@@ -1,0 +1,38 @@
+/* .header {
+  background-color: black;
+}
+
+#first {
+  color: blue;
+}
+
+#second {
+  color: red;
+} */
+
+div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: none;
+  background-color: bisque;
+  box-shadow: inset 0px 0px 7px 5px lightpink;
+  border: solid 1px lightpink;
+  border-radius: 5px;
+}
+
+#moveTo {
+  color: white;
+  background-color: blueviolet;
+  box-shadow: inset 0px 0px 7px 5px grey;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
