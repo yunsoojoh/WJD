@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bilboard</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <!-- 네비게이션 바 -->
+    <div class="navigator">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="hamburger"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+      <h1>
+        <a href="https://www.billboard.com"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 455.133 94.711"
+            class="logo"
+          >
+            <path
+              d="M70.107 28.859h21.318V93.69H70.107zM95.834 3.51h21.312v90.18H95.834zm25.723 0h21.312v90.18h-21.312zm250.711 32.035v-6.686h-21.315V93.69h21.315V62.792c0-7.949 4.154-12.237 11.728-12.237h2.522V28.229c-6.432.253-11.1 2.271-14.25 7.316zM80.764 0c-6.822 0-12.359 5.535-12.359 12.361 0 6.826 5.537 12.363 12.359 12.363 6.828 0 12.361-5.537 12.361-12.363S87.592 0 80.764 0zm244.457 33.795c-2.996-3.268-9.967-5.965-15.26-5.965-16.098 0-27.646 10.613-30.473 26.389-3.082-15.135-16.273-26.78-32.359-26.78-16.24 0-29.537 11.781-32.444 27.2-2.822-16.026-15.428-26.648-31.061-26.648-5.801 0-10.596 1.262-14.76 4.16V3.521h-21.312V93.7h20.938v-5.93c5.045 4.668 10.467 6.812 17.154 6.812 14.398 0 26.52-11.271 29.113-26.807 3.055 15.203 16.169 26.76 32.373 26.76 16.065 0 28.949-11.312 32.228-26.125 2.711 16.18 15.531 26.301 30.854 26.301 5.293 0 11.099-1.771 15.009-4.668V93.7h21.312V65.327c0-1.164-.008-2.298-.031-3.406.023-1.108.031-2.241.031-3.405V28.969h-21.312v4.826zM181.355 73.948c-6.826 0-12.359-5.535-12.359-12.363 0-6.824 5.533-12.358 12.359-12.358 6.824 0 12.359 5.534 12.359 12.358.001 6.828-5.534 12.363-12.359 12.363zm65.774-.99c-6.822 0-12.361-5.539-12.361-12.363 0-6.823 5.539-12.358 12.361-12.358 6.824 0 12.359 5.535 12.359 12.358.001 6.823-5.532 12.363-12.359 12.363zm64.047.392c-6.826 0-12.354-5.539-12.354-12.363 0-6.823 5.527-12.358 12.354-12.358 6.832 0 12.359 5.535 12.359 12.358.001 6.824-5.527 12.363-12.359 12.363zM433.815 3.5v28.631c-4.156-2.9-8.949-4.16-14.757-4.16-17.782 0-31.654 13.746-31.654 33.55 0 18.664 13.368 33.043 29.642 33.043 6.68 0 12.103-2.146 17.152-6.811v5.928h20.938V3.5h-21.321zm-12.553 70.288c-6.817 0-12.354-5.539-12.354-12.358 0-6.828 5.535-12.365 12.354-12.365 6.828 0 12.363 5.537 12.363 12.365 0 6.819-5.535 12.358-12.363 12.358zM36.072 27.99c-5.803 0-10.594 1.262-14.76 4.16V3.521H0V93.7h20.936v-5.93c5.045 4.668 10.469 6.812 17.156 6.812 16.268 0 29.637-14.383 29.637-33.047 0-19.797-13.874-33.545-31.657-33.545zm-2.269 45.958c-6.824 0-12.359-5.535-12.359-12.363 0-6.824 5.535-12.358 12.359-12.358 6.826 0 12.359 5.534 12.359 12.358 0 6.828-5.533 12.363-12.359 12.363z"
+            ></path></svg
+        ></a>
+      </h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="search"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+        />
+      </svg>
+    </div>
+    <!-- title -->
+    <div class="title">
+      <div class="hero">
+        <h2>Billboard Hot 100</h2>
+        <a href="https://www.billboard.com/charts/" class="all-charts"
+          >&lt; <span class="all-charts-text">ALL CHARTS</span></a
+        >
+      </div>
+      <div class="functions">
+        <a class="buttons"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="white"
+            class="inner-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
+            />
+          </svg>
+        </a>
+        <button class="buttons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="white"
+            class="inner-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
+            />
+          </svg>
+        </button>
+        <button class="buttons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="white"
+            class="inner-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+            />
+          </svg>
+        </button>
+        <button class="buttons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="white"
+            class="inner-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15m0-3l-3-3m0 0l-3 3m3-3V15"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- 1st -->
+    <div class="week-1st">
+      <div class="song-info">
+        <div style="display: flex; flex-direction: row; align-items: center">
+          <p class="song-rank">1</p>
+          <div class="song-detail">
+            <a href="./index.html" style="color: white; font-weight: 900"
+              >Last Night</a
+            >
+            <p>Morgan Wallen</p>
+          </div>
+        </div>
+        <img
+          src="https://charts-static.billboard.com/img/2016/08/morgan-wallen-nlu-180x180.jpg"
+          class="cover"
+        />
+      </div>
+      <div class="rank-info">
+        <div class="tabs">
+          <button id="tab-stats" class="tab active">STATS</button>
+          <button id="tab-news" class="tab">NEWS</button>
+          <button id="tab-share" class="tab">SHARE</button>
+        </div>
+        <div id="stats" class="tab-detail show">
+          <div class="stat-detail">
+            <p>LAST WEEK</p>
+            <p>1</p>
+          </div>
+          <div class="stat-detail">
+            <p>WEEKS AT NO.1</p>
+            <p>11</p>
+          </div>
+          <div class="stat-detail">
+            <p>WEEKS ON CHART</p>
+            <p>20</p>
+          </div>
+        </div>
+        <div id="news" class="tab-detail">
+          <div class="news-detail">
+            <img
+              src="https://www.billboard.com/wp-content/uploads/2023/06/Morgan-Wallen-and-Lil-Durk-2023-billboard-1548.jpg?w=150&amp;h=150&amp;crop=1"
+            />
+            <p>
+              <a
+                href="https://www.billboard.com/music/country/morgan-wallen-lil-durk-wrigley-concert-stand-by-me-performance-1235360643/"
+                >Morgan Wallen, Lil Durk Team Up for 'Stand By Me' During
+                Wrigley Field Concert</a
+              >
+            </p>
+          </div>
+        </div>
+        <div id="share" class="tab-detail">
+          <button class="share-detail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="#1a48c4"
+              class="bi bi-twitter"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              />
+            </svg>
+            <p>Twitter</p>
+          </button>
+          <button class="share-detail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="white"
+              stroke="#1a48c4"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+              />
+            </svg>
+            <p>Copy Link</p>
+          </button>
+          <button class="share-detail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+              width="16"
+              height="16"
+              fill="#1a48c4"
+            >
+              <path
+                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+              />
+            </svg>
+            <p>Facebook</p>
+          </button>
+          <button class="share-detail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="#1a48c4"
+              width="16"
+              height="16"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+              />
+            </svg>
+            <p>Embed</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- rank -->
+  </body>
+</html>

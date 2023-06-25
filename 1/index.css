@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+}
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+  /* box-shadow: 0 5px 3px 1px rgb(223, 223, 223); */
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.navigator .hamburger {
+  justify-content: center;
+  padding: 0 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.navigator .logo {
+  justify-content: center;
+  height: 24px;
+}
+
+.navigator .search {
+  justify-content: center;
+  padding: 0 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.title h2 {
+  padding: 10px;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 3.1875rem;
+  text-align: center;
+}
+
+.title .hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title .all-charts {
+  display: inline;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.title .all-charts-text {
+  color: #1a48c4;
+}
+
+.title .functions {
+  border-top: solid 5px;
+  border-bottom: solid 2px;
+  margin: 0 10px;
+  padding: 16px 0;
+}
+
+.title .functions .buttons {
+  display: inline-block;
+  border: none;
+  background-color: #1a48c4;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0 5px;
+}
+
+.title .functions .buttons .inner-icon {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.week-1st .song-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-size: 1.125rem;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.week-1st .song-info .song-detail p {
+  margin: 0;
+}
+
+.week-1st .song-info .song-rank {
+  padding: 0 12px;
+  font-size: 6.375rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+.week-1st .song-info .cover {
+  vertical-align: middle;
+  height: 100%;
+  display: inline-block;
+}
+
+.week-1st .rank-info .tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.week-1st .rank-info .tab {
+  margin: 10px 20px;
+  width: 33%;
+  padding: 4px;
+  text-align: center;
+  border: none;
+  background: none;
+  font-weight: 900;
+  color: grey;
+  cursor: pointer;
+}
+
+.week-1st .rank-info .active {
+  color: #1a48c4;
+  text-decoration: underline;
+  text-decoration-thickness: 0.3rem;
+  text-underline-offset: 4px;
+}
+
+.week-1st .rank-info .tab-detail {
+  display: none;
+}
+
+.week-1st .rank-info .show {
+  display: flex !important;
+}
+
+.week-1st .rank-info #stats {
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: 0.6875rem;
+}
+
+.week-1st .rank-info .stat-detail {
+  width: 33%;
+  text-align: center;
+  border-left: 1px solid rgb(204, 204, 204);
+}
+
+.week-1st .rank-info .stat-detail:first-child {
+  border-left: none;
+}
+
+.week-1st .rank-info .stat-detail p:first-child {
+  font-weight: 900;
+}
+
+.week-1st .rank-info .stat-detail p:last-child {
+  font-weight: 900;
+  font-size: 1.875rem;
+  margin: 0;
+}
+
+.week-1st .rank-info .news-detail {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+}
+
+.week-1st .rank-info .news-detail img,
+.week-1st .rank-info .news-detail a,
+.week-1st .rank-info .news-detail p {
+  margin: 0;
+  margin-right: 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+.week-1st .rank-info #share {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.week-1st .rank-info .share-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 12px;
+  padding: 0.5rem;
+  width: 150px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-weight: 700;
+  color: #1a48c4;
+}
+
+.week-1st .rank-info .share-detail svg {
+  margin: auto 0;
+}
+
+.week-1st .rank-info .share-detail p {
+  margin: auto 0.5rem;
+}
