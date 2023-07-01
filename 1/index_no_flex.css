@@ -161,6 +161,7 @@ body {
 
 .week-1st .rank-info .tab-detail {
   display: none;
+  text-align: center;
 }
 
 .week-1st .rank-info .show {
@@ -169,8 +170,7 @@ body {
 }
 
 .week-1st .rank-info #stats {
-  justify-content: space-between;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   font-size: 0.6875rem;
 }
 
@@ -197,6 +197,7 @@ body {
 
 .week-1st .rank-info .news-detail {
   padding: 0 30px;
+  text-align: left;
 }
 
 .week-1st .rank-info .news-detail img,
