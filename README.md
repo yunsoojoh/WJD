@@ -12,3 +12,13 @@
   - https://www.billboard.com/charts/hot-100/ 디자인 클론
   - html과 css를 중심으로 진행
   - js 일부 작성했으나 디자인 구현을 위해 임시 작성한 수준
+
+### 2주차
+
+- 숙제 code review
+- css - flex에 대한 설명 
+
+### 3주차
+
+- javascript 모듈
+- javascript 자료형
