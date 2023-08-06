@@ -1,68 +1,72 @@
 body {
-    margin: 0px auto;
-    max-width: 420px;
-    font-family: 'GmarketSans';
+  margin: 0px auto;
+  max-width: 420px;
+  font-family: "GmarketSans";
 }
 
-h1, h2, h3, h4, h5, p {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
 }
 
 hr {
-    margin: 30px 0px;
-    border: solid 0.3px #999;
-
+  margin: 30px 0px;
+  border: solid 0.3px #999;
 }
 
-#screen{
-    padding: 5px 20px 20px;
-    height: 700px;
-    background-color: #f7f7f7;
-    background-attachment: fixed;
-    overflow: scroll;
-    border-radius: 15px;
+#screen {
+  padding: 5px 20px 20px;
+  height: 700px;
+  background-color: #f7f7f7;
+  background-attachment: fixed;
+  overflow: scroll;
+  border-radius: 15px;
 }
 
 #title {
-    margin: 40px 10px;
-    text-align: left;
-    font-size: 36px;
-    vertical-align: middle;
+  margin: 40px 10px;
+  text-align: left;
+  font-size: 36px;
+  vertical-align: middle;
 }
 
 #content {
-    display: flex;
-    padding-top: 20px;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .todo-wrapper {
-    display: flex;
-    padding: 2px 8px;
-    height: 50px;
-    align-items: center;
-    color: black;
-    border-radius: 15px;
-    background-color: #ebf3ff;
-    box-shadow: 0 2px 8px 1px #c9deff;
+  display: flex;
+  padding: 2px 8px;
+  height: 50px;
+  align-items: center;
+  color: black;
+  border-radius: 15px;
+  background-color: #ebf3ff;
+  box-shadow: 0 2px 8px 1px #c9deff;
 }
 
 input[type="checkbox"] {
-    margin: 0px 6px;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    border: 1px solid black;
-    appearance: none;
-    cursor: pointer;
-    position: relative;
+  margin: 0px 6px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  appearance: none;
+  cursor: pointer;
+  position: relative;
 }
 
 input[type="checkbox"]:checked {
-    background-color: white;
-    border: 1px solid white;
-    padding: 2px;
+  background-color: white;
+  border: 1px solid white;
+  padding: 2px;
 }
 
 input[type="checkbox"]:checked::before {
@@ -77,52 +81,52 @@ input[type="checkbox"]:checked::before {
   background-color: #05e3af;
 }
 
-input[type=text] {
-    padding-left: 10px;
-    color: #999;
-	  font-size: 15px;
-    font-family: 'GmarketSans';
+input[type="text"] {
+  padding-left: 10px;
+  color: #999;
+  font-size: 15px;
+  font-family: "GmarketSans";
 }
 
 .todo-label {
-    font-size: 20px;
-    flex-grow: 1;
+  font-size: 20px;
+  flex-grow: 1;
 }
 
 .completed {
-    background-color: #05e3af;
-    text-decoration: line-through;
-    box-shadow: 0 2px 8px 1px #02bf93;
+  background-color: #05e3af;
+  text-decoration: line-through;
+  box-shadow: 0 2px 8px 1px #02bf93;
 }
 
 .delete {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #add-todo {
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    text-align: center;
-    background: none;
-    gap: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  text-align: center;
+  background: none;
+  gap: 10px;
 }
 
 #new-label {
-    flex-grow: 1;
-    height: 36px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px 1px #999;
+  flex-grow: 1;
+  height: 36px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 1px #999;
 }
 
 #add-button {
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
-    background-color: #c9deff;
-    box-shadow: 0 2px 4px 1px #999;
-    cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #c9deff;
+  box-shadow: 0 2px 4px 1px #999;
+  cursor: pointer;
 }
 
 .modify-modal {
@@ -166,7 +170,7 @@ input[type=text] {
   border: none;
   border-radius: 10px;
   box-shadow: 0 2px 4px 1px #999;
-  font-family: 'GmarketSans';
+  font-family: "GmarketSans";
   cursor: pointer;
 }
 
@@ -177,6 +181,6 @@ input[type=text] {
   border: none;
   border-radius: 10px;
   box-shadow: 0 2px 4px 1px #999;
-  font-family: 'GmarketSans';
+  font-family: "GmarketSans";
   cursor: pointer;
 }
